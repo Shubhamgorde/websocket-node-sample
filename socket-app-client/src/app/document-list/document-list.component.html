@@ -1,0 +1,3 @@
+
+	<button><span (click)='newDoc()'>New Document</span> </button>
+	<span *ngFor='let docId of documents | async'>{{ docId}} <br></span>
